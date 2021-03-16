@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <div></div>
+
+    <div class="h2">
+      <h2>My Fabulous Garden</h2>
+    </div>
+
+    <div></div>
+
+
+  </header>
+
+  <main>
+    <div class="formDiv">
+      <form>
+        <div>
+
+          <legend class="legend">New Flower</legend>
+        </div>
+        <div>
+
+
+          <label for="flowers name">Name</label>
+          <input type="text" name="flowers name" id="flowers name">
+        </div>
+
+        <div>
+          <label for="flower category">Image</label>
+          <select type="text" name="flower category" id="flower category">
+            <option value="Alstroemerias">Alstroemerias</option>
+            <option value="Gardenias">Gardenias</option>
+            <option value="Orchids">Orchids</option>
+            <option value="Roses">Roses</option>
+            <option value="Sunflowers">Sunflowers</option>
+            <option value="Tulips">Tulips</option>
+            <option value="Peonies">Peonies</option>
+
+          </select>
+        </div>
+
+        <div>
+          <label for="flower season">Season</label>
+          <input type="text" name="flower season" id="flower season">
+        </div>
+
+        <div>
+          <input type="submit" class="submit" value="Save">
+           <input type="clearLS"  class="clearLS" value="Clear LS">
+          
+            
+          
+        </div>
+       
+
+      </form>
+    </div>
+
+    <div class="tableDiv">
+      <table>
+        <thead>
+          <tr>
+            <td>#</td>
+            <td>Image</td>
+            <td>Name</td>
+            <td>Season</td>
+          </tr>
+        </thead>
+        <tbody id="body"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <span class="footer" >&copy; All Right Reserved 2021 @ ASAC</span>
+  </footer>
+
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
